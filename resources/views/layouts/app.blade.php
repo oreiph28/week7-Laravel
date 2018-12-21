@@ -24,13 +24,53 @@
 
 
       <main class="py-4">
+
+
 @include('inc.navbar')
 <div class="container">
+
   @include('inc.messages')
+
   @yield('content')
+
 </div>
 </main>
 
     </div>
+
+
+
+
+
+
+
+      <div id="footer" class="card text-center">
+        <a class="btn btn-social-icon btn-twitter">
+    <span class="fa fa-twitter"></span>
+  </a>
+
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">VirtualMarket</h5>
+          <p class="card-text">With thanx to HackerMaster.tk.</p>
+          <a href="http:\\www.hackermaster.tk" class="btn btn-primary">HackerMaster</a>
+        </div>
+        <div class="card-footer text-muted">
+          <!-- Auto Updating Copyright Script created with Rapid Purple Webmaster Tools (http://rapidpurple.com). -->
+
+<script language="JavaScript">
+<!--
+function y2k(number) { return (number < 1000) ? number + 1900 : number; }
+var today = new Date();
+var year = y2k(today.getYear());
+document.write('© '+year+' Ornelio Reiph - All Rights Reserved');
+//-->
+</script>
+
+        </div>
+      </div>
+
 </body>
 </html>

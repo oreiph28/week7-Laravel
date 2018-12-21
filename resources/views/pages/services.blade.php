@@ -2,8 +2,8 @@
 
 @section('content')
 
-
-
+<br/>
+  <div id="post">
 
 <br/>
        <h1>Terms and Conditions ("Terms")</h1>
@@ -16,7 +16,7 @@
 
        <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
 
-       <p>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service. This Terms and Conditions agreement  for nibblebits technology is managed by <a href="https://www.hackermaster.tk">HackerMaster</a>.</p>
+       <p>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service. This Terms and Conditions agreement  for nibblebits technology is managed by <a href="http:\\www.hackermaster.tk">HackerMaster</a>.</p>
 
 
        <h2>Accounts</h2>
@@ -68,6 +68,6 @@
 
        <p>If you have any questions about these Terms, please contact us.</p>
 
-
+</div>
 
 @endsection

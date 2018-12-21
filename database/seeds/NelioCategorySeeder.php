@@ -16,8 +16,8 @@ class NelioCategorySeeder extends Seeder
       DB::table('Groups')->insert([
         'name' => str_random(10),
         'email' => str_random(10).'@gmail.com',
-        'phone'=>  str_random(6),
-        'price'=>  str_random(6),
+        'phone' =>  str_random(6),
+        'price' =>  str_random(6),
         'password' => bcrypt('secret'),
     ]);
     }

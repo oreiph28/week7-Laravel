@@ -9528,3 +9528,37 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+#sec1 {
+  height: 900px;
+  background-image: url("/img/wallpaper.jpg");
+  background-size: 100%;
+  color: gray;
+}
+
+body {
+  background-color: gray;
+  color: gray;
+}
+
+#about {
+  background-color: white;
+  color: gray;
+  padding: 20px;
+  border-radius: 3%;
+}
+
+#post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  color: gray;
+}
+
+#index_h {
+  color: gray;
+}
+
+#footer {
+  color: gray;
+}
+

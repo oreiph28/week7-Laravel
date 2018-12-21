@@ -2,9 +2,11 @@
 
 @section('content')
 <br/>
-<h1>{{$title}}</h1>
+<div id="about" >
+<h1 align="center">{{$title}}</h1>
 
 <p id="text1">
+
    <br />
    Virtual Market is a website to post your advertisements.
    It has been developed by Ornelio Reiph. <br />
@@ -19,7 +21,7 @@
    Your Administrator. <br />
 
    </p>
-   <img src="../../images/kweek.jpg" width="512" height="384" alt="administrator" title="Virtual Market" />
+   <img src="{{ asset('img/nelio1.png') }}" width="210" height="180" alt="administrator" title="Virtual Market" />
 
 </div>
 
